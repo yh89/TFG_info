@@ -54,7 +54,7 @@ class PipelineWorkflow(inputPath: String, outputPath: String) {
       df7 <- Right(res7.drop("Code")).right
       res8 <- readCsv("significant-volcanic-eruptions").right
       df8 <- Right(res8.drop("Code")).right
-      //df9 <- readCsv("GlobalLandTemperaturesByCity").right
+      df9 <- readCsv("GlobalLandTemperaturesByCity").right
     } yield df1 :: df2 :: df3 :: df4 :: df5 :: df6 :: df7 :: df8 :: df9:: Nil
   }
 
