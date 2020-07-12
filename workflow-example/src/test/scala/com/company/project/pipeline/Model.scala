@@ -1,12 +1,11 @@
 package com.company.project.pipeline
-
+import java.sql.Timestamp
 object Model{
 
-  case class Match(home: String,
-    away: String,
-    homeGoals: Option[Long],
-    awayGoals: Option[Long])
+  case class Disaster(Entity: String,
+                   Year: Int,
+                   Number: Int)
 
-  case class GoalsPerTeam(team: String,
-    goals: Option[Long])
+  case class Temperature(dt: Timestamp,
+                         AverageTemperature: Int)
 }
