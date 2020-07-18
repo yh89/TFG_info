@@ -18,8 +18,8 @@ Para la elaboración de este trabajo, se utilizará GitHub para el seguimiento d
 ## Contenido del repositorio
 
 - Los códigos relacionados con el objativo 1) y 2) están en el Notebook `TFG`
-- Objetivo 3): como los documentos de Databricks están en su plataforma, aquí está el resultado sacado con Databricks `Solucion_databricks.html`
-- Objetivo 4): está en el proyecto sbt `workflow-example/` del cual vamos a generar el jar para ejecurar en AWS, el .jar no está subido debido a su tamaño.
+- Para el objetivo 3): como los documentos de Databricks están en su plataforma, aquí está el resultado sacado con Databricks `Solucion_databricks.html`
+- Para el objetivo 4): está en el proyecto sbt `workflow-example/` del cual vamos a generar el jar para ejecurar en AWS, el .jar no está subido debido a su tamaño.
 - También está el notebook `Defensa de tfg` que será usado para el día de la defensa. 
 - En la carpeta `data\` están las bases de datos que he utilizado salvo uno debido a su tamaño y se puede descargar de la siguiente página:
 https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv
