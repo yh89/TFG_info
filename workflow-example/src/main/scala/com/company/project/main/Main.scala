@@ -17,7 +17,7 @@ object Main extends App {
     } yield ()
 
   val logRun = LoggerFactory.getLogger(getClass.getName)
-  implicit val spark = SparkSession.builder().master("local[*]").getOrCreate()
+  implicit val spark = SparkSession.builder().getOrCreate()
 
   runPipeline(args) match {
     case Left(error) =>
